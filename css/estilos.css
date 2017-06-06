@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+body{
+ font-family: 'Lato', sans-serif;
+}
+
+hr {
+  border-color: orange;
+  border-width: 3px;
+  max-width: 50px; }
+
+.fondo-naranja{
+     background: #f3a309;
+     }
+
+.bg-seccion-1{
+	background: #f3a309;
+	color: #ffffff;
+}
+
+.boton-eve{
+	-webkit-transform: translateY(0) scale(1);
+     opacity: 1;transform: translateY(0) scale(1);
+     opacity: 1;
+     -webkit-transition: all 0.35s ease 0s,
+     -webkit-transform 1s
+     cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s
+     cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s; transition: all 0.35s ease 0s, transform 1s
+     cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s
+     cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s;
+     margin: 20px;
+     font-weight: bold;
+     color: #58595b;
+}
+
+.boton-eve-1{
+ color: #58595b;
+ background-color: #ffffff;
+ margin: 20px;
+ font-weight: bold;
+
+}
+
+
+.img-responsive{
+     width: 100%;
+}
+
+.img-fluid {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.sinmargen{
+  margin: 0;
+  padding: 0;
+}
+
+.nav-estilos{
+	font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+}
+.glyphicon{
+  font-size: 40px;
+  color: orange;
+}
+
+.nav-estilos a{
+	color: #ffffff;
+}
+
+
+.fondo-gris{
+     background: gray;
+     }
+.bg-seccion-2{
+	background: gray;
+	color: white;
+}
+
+
+.glyphicon-ok,
+.glyphicon-headphones,
+.glyphicon-send,
+.glyphicon-heart{
+  color: #f3a309;
+  font-size: 50px;
+}
+.row{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.contenedores-servicios{
+  padding: 50px;
+}
+
+.contactanos.row{
+text-align: center;
+color: gray;
+}
+
+.contenedorcontact{
+  text-align: center;
+}
+
+.modal-title{
+  color: #58595b;
+}
+
+.modal-body{
+  color: #58595b;
+}
+
+.img-container{
+  position: relative;
+}
+.hover-color{
+  opacity: 0;
+  background: rgba;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  color: white;
+
+}
+.hover-color:hover{
+  opacity: 1;
+}
+
+
+@media screen and (max-width: 500px) {
+  .carousel-indicators li {
+      width:15px;
+      height: 15px;
+      text-align:center;
+  }
+
+  .carousel-indicators .active {
+      width:17px;
+      height: 17px;
+      text-align:center;
+  }
+  }
